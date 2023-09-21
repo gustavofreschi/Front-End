@@ -25,7 +25,7 @@ function EnviarDados(){
 
 
 function validar(nome, idade, cidade){
-    if(nome == "" || idade == "" || cidade =="")
+    if(nome == "" || idade == "" || cidade == "")
     {
         document.querySelector("#resultado").innerHTML = `
         <div class="alert alert-danger fade show">
