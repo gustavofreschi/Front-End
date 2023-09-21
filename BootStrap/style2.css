@@ -1,0 +1,62 @@
+@media (max-width: 576px) {
+    .principal {
+        background: url(https://s1.static.brasilescola.uol.com.br/be/2022/06/paisagem-natural-floresta.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    
+}
+
+
+@media (min-width: 760px) {
+    .principal {
+        background: url(https://img.freepik.com/fotos-gratis/praia-tropical_74190-188.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        
+    }
+
+    
+}
+
+@media (min-width: 992px) {
+    .principal {
+        background: url(https://www.topgear.com/sites/default/files/images/news-article/carousel/2018/04/d17164686c9cb355f9a17a5fc447264a/490260.jpg?w=976&h=549);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+   
+}
+
+@media (min-width: 1200px) {
+    .principal {
+        background: url(https://cienciahoje.org.br/wp-content/uploads/2019/12/Artigo-MICROORGANISMO_AdobeStock_305541479.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    
+}
+
+@media (min-width: 1400px) {
+    .principal {
+        background: url(https://cdn.wallpapersafari.com/77/84/qu4sDk.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    
+
+}

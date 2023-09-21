@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(5, 119, 5);
+    overflow-x: hidden !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@media (min-width: 1280px) {
+   
+}
+
+.botao
+{
+    transition: 500ms;
+}
+
+.botao:hover
+{
+    transform: scale(1.15);
+}
+
+#Login
+{
+    box-shadow: 3px 3px 3px black;
+    background-color: rgba(10, 170, 10, 0.697);
+}

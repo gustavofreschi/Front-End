@@ -1,0 +1,53 @@
+@media (max-width: 576px) {
+    .principal {
+        background-color: red;
+    }
+
+    .lorem {
+        text-align: left;
+        color: black;
+    }
+}
+
+@media (min-width: 760px) {
+    .principal {
+        background-color: blue;
+    }
+
+    .lorem {
+        color: aqua;
+    }
+}
+
+@media (min-width: 992px) {
+    .principal {
+        background-color: black;
+    }
+
+    .lorem {
+        color: red;
+    }
+}
+
+@media (min-width: 1200px) {
+    .principal {
+        background-color: green;
+    }
+
+    .lorem {
+        color: yellow;
+    }
+}
+
+@media (min-width: 1400px) {
+    .principal {
+        background-color: yellow;
+    }
+
+    
+
+    .lorem {
+        text-align: center;
+        color: red;
+    }
+}

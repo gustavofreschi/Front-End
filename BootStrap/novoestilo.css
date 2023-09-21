@@ -1,0 +1,12 @@
+:root {
+    --primary: #912020;
+    --secondary: cyan;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.bg-secondary {
+    background-color: var(--secondary) !important;
+}

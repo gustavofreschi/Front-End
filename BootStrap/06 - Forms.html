@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Forms</title>
+</head>
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+<!--Utilizando ícones-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<!--Linkando com o style.css-->
+<link rel="stylesheet" href="novoestilo.css">
+
+<body class="container">
+    
+<form>
+    <h1 class="row display-3 text-dark">1 - Inputs Texto</h1>
+    <input type="text">
+    <input type="text" placeholder="Texto" class="form-control mb-5 mt-3 border-black border-1 w-50">
+
+    <h1 class="row display-3 text-dark">2 - Checkbox</h1>
+    <input type="checkbox">
+    <input type="checkbox" class="form-check-input mb-5">
+
+
+    <h1 class="row display-3 text-dark">3 - Radio</h1>
+    <input type="radio">
+    <input class="form-check-input mb-5" type="radio">
+
+
+    <h1 class="row display-3 text-dark">4 - Range</h1>
+    <input type="range">
+    <input class="form-range mb-5 w-50" type="range">
+
+
+    <h1 class="row display-3 text-dark">5 - Select</h1>
+    <select>
+        <option >1 - Péssimo</option>
+        <option >2 - Médio</option>
+        <option >3 - Bom</option>
+        <option >4 - Ótimo</option>
+    </select>
+    <select class="form-select w-50 mt-3 mb-5 border-2 border-black">
+        <option>1 - Péssimo</option>
+        <option>2 - Médio</option>
+        <option>3 - Bom</option>
+        <option>4 - Ótimo</option>
+    </select>
+
+
+    <h1 class="row display-3 text-dark">6 - TextArea</h1>
+    <textarea></textarea>
+    <textarea class="form-control mt-3 w-50 fs-5 bg-dark text-white"></textarea>
+
+
+    <h1 class="row display-3 text-dark">7 - Alterando cores</h1>
+    <p class="text-primary bg-secondary">Mudando cores</p>
+    <p class="text-primary bg-secondary">Mudando cores 2</p>
+    <p class="text-primary bg-secondary">Mudando cores 3</p>
+    
+    <button class="btn btn-outline-primary"><i class="bi bi-tsunami mb-5"></i>Button</button>
+    <button class="btn btn-outline-secondary bi bi-whatsapp fs-3"> Whatsapp</button>
+
+
+    <div class="input-group">
+        <span class="input-group-text">
+            <i class="bi bi-playstation"></i>
+        </span>
+        <input class="form-control" type="text">
+    </div>
+</form>
+
+</body>
+</html>
